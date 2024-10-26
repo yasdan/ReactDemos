@@ -1,0 +1,21 @@
+/* ChatWindow.css */
+.chat-window {
+    width: 100%;
+    max-width: 600px;
+    height: 80vh;
+    background-color: #7ef367;
+    border: 1px solid #f8c4c4;
+    border-radius: 8px;
+    overflow-y: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (max-width: 768px) {
+    .chat-window {
+      height: 70vh;
+      width: 90%;
+    }
+  }
+  
